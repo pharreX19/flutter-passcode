@@ -100,7 +100,7 @@ class Keyboard extends StatelessWidget {
       child: ClipOval(
         child: Material(
           color: Colors.transparent,
-          child: InkWell(
+          child: GestureDetector(
 //             splashColor: keyboardUIConfig.primaryColor.withOpacity(0.4),
             onTap: () {
               onKeyboardTap(text);
